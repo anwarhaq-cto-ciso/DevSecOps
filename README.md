@@ -8,14 +8,14 @@
 
 # Table of Contents
 
-1. [Getting Started with with Open Source Security](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide#getting-started-with-open-source-security)
+1. [Getting Started with with Open Source Security](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide#getting-started-with-open-source-security)
     * [Security Tutorials & Resources](#Security-Tutorials--Resources)
     * [Security Certifications](#Security-Certifications)
     * [Books](#books)
     * [Playbooks](#playbooks)
     * [YouTube Tutorials](#youtube-tutorials)
 
-2. [Security Standards, Frameworks and Benchmarks](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide#security-standards-frameworks-and-benchmarks)
+2. [Security Standards, Frameworks and Benchmarks](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide#security-standards-frameworks-and-benchmarks)
     * [Security Benchmarks](#Security-Benchmarks)
     * [Security Standards & Frameworks](#Security-Standards--Frameworks)
     * [Security Encryption](#Security-Encryption)
@@ -29,9 +29,9 @@
     * [Incident Management](#incident-management)
     * [Sandboxing/Reversing Tools](#sandboxingreversing-tools)
 
-3. [Security Tools](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide#security-tools)
+3. [Security Tools](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide#security-tools)
 
-4. [Network Security](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide#network-security)
+4. [Network Security](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide#network-security)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/119560590-f7f91500-bd58-11eb-8fa4-57ba89fd58da.png">
@@ -160,8 +160,8 @@
 
 **Playbooks** can help automate and orchestrate your response, and can be set to run automatically when specific alerts or incidents are generated, by being attached to an analytics rule or an automation rule.
 
-* [OSSTMM (Open Source Security Testing Methodology Manual) PDF](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide/files/8834704/osstmm.en.2.1.pdf)
-* [NIST Technical Guide to Information Security Testing and Assessment (PDF)](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide/files/8834705/nistspecialpublication800-115.pdf)
+* [OSSTMM (Open Source Security Testing Methodology Manual) PDF](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide/files/8834704/osstmm.en.2.1.pdf)
+* [NIST Technical Guide to Information Security Testing and Assessment (PDF)](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide/files/8834705/nistspecialpublication800-115.pdf)
 * [AWS Incident Response Runbook Samples](https://github.com/aws-samples/aws-incident-response-runbooks/tree/0d9a1c0f7ad68fb2c1b2d86be8914f2069492e21) - AWS IR Runbook Samples meant to be customized per each entity using them. The three samples are: "DoS or DDoS attack", "credential leakage", and "unintended access to an Amazon S3 bucket".
 * [Counteractive Playbooks](https://github.com/counteractive/incident-response-plan-template/tree/master/playbooks) - Counteractive PLaybooks collection.
 * [GuardSIght Playbook Battle Cards](https://github.com/guardsight/gsvsoc_cirt-playbook-battle-cards) - A collection of Cyber Incident Response Playbook Battle Cards
@@ -190,7 +190,7 @@
 
 
 # Security Standards, Frameworks and Benchmarks
-[Back to the Top](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide#table-of-contents)
+[Back to the Top](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide#table-of-contents)
 
 ### Security Benchmarks
 
@@ -202,9 +202,9 @@
 
  * [CIS Top 18 Critical Security Controls](https://www.cisecurity.org/controls/cis-controls-list)
 
- * [OSSTMM (Open Source Security Testing Methodology Manual) PDF](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide/files/8834704/osstmm.en.2.1.pdf)
+ * [OSSTMM (Open Source Security Testing Methodology Manual) PDF](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide/files/8834704/osstmm.en.2.1.pdf)
 
- * [NIST Technical Guide to Information Security Testing and Assessment (PDF)](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide/files/8834705/nistspecialpublication800-115.pdf)
+ * [NIST Technical Guide to Information Security Testing and Assessment (PDF)](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide/files/8834705/nistspecialpublication800-115.pdf)
 
  * [NIST - Current FIPS](https://www.nist.gov/itl/current-fips)
 
@@ -493,7 +493,7 @@ There is a close relation between UEBA and SIEM technologies, because UEBA relie
  **Evidence Collection** - is a set of protocols that apply to both pre-collection and post-collection evidence. This process helps with Preserving & Collecting Evidence making sure the evidence is not destroyed or devalued as a source of information.
 
   <p align="center">
- <img src="https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide/assets/45159366/6d429dcc-be27-429e-8e07-3997e0038210">
+ <img src="https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide/assets/45159366/6d429dcc-be27-429e-8e07-3997e0038210">
 </p>
 
 * [Acquire](https://github.com/fox-it/acquire) - Acquire is a tool to quickly gather forensic artifacts from disk images or a live system into a lightweight container. This makes Acquire an excellent tool to, among others, speedup the process of digital forensic triage. It uses [Dissect](https://github.com/fox-it/dissect) to gather that information from the raw disk, if possible.
@@ -514,7 +514,7 @@ There is a close relation between UEBA and SIEM technologies, because UEBA relie
 **Incident Management** - is the process used by development and IT Operations teams to respond to an unplanned event or service interruption and restore the service to its operational state.
 
 <p align="center">
- <img src="https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide/assets/45159366/3fb30701-30e6-4988-9beb-09413704483b">
+ <img src="https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide/assets/45159366/3fb30701-30e6-4988-9beb-09413704483b">
 </p>
 
 * [Catalyst](https://github.com/SecurityBrewery/catalyst) - A free SOAR system that helps to automate alert handling and incident response processes.
@@ -540,7 +540,7 @@ There is a close relation between UEBA and SIEM technologies, because UEBA relie
 **Reverse-engineering** - is the process of dismantling a device, system, or piece of software to see how it works. It's done primarily to analyze and gain knowledge about the way a product works but often is used to duplicate or enhance the product.
 
 <p align="center">
- <img src="https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide/assets/45159366/a1e6bdcd-39d7-428f-b74f-9334707f2893">
+ <img src="https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide/assets/45159366/a1e6bdcd-39d7-428f-b74f-9334707f2893">
 </p>
 
 * [Any Run](https://app.any.run/) - Interactive online malware analysis service for dynamic and static research of most types of threats using any environment.
@@ -561,7 +561,7 @@ There is a close relation between UEBA and SIEM technologies, because UEBA relie
 * [Virustotal](https://www.virustotal.com) - Free online service that analyzes files and URLs enabling the identification of viruses, worms, trojans and other kinds of malicious content detected by antivirus engines and website scanners.
 
 # Security Tools
-[Back to the Top](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide#table-of-contents)
+[Back to the Top](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide#table-of-contents)
 
 [Acra](https://cossacklabs.com/acra) is a single database security suite with 9 strong security controls: application level encryption, searchable encryption, data masking, data tokenization, secure authentication, data leakage prevention, database request firewall, cryptographically signed audit logging, security events automation. It is designed to cover the most important data security requirements with SQL and NoSQL databases and distributed apps in a fast, convenient, and reliable way.
 
@@ -860,7 +860,7 @@ There is a close relation between UEBA and SIEM technologies, because UEBA relie
 [ClamAV](https://www.clamav.net/) is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.
 
 # Network Security
-[Back to the Top](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide#table-of-contents)
+[Back to the Top](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/82833053-d1687b80-9e71-11ea-8c6d-074100f2f54b.png">
@@ -1008,6 +1008,6 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 ## License
 
-[Back to the Top](https://github.com/anwarhaq-cto-ciso/Open-Source-Security-Guide#table-of-contents)
+[Back to the Top](https://github.com/anwarhaq-cto-ciso/DevSecOps/Open-Source-Security-Guide#table-of-contents)
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
